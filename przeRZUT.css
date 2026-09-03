@@ -1,17 +1,54 @@
 body{
     font-family: Arial;
+    margin: 0%;
+    background-color: #0A6446;
 }
 header{
     display: flex;
     flex-direction: row;
     background-color: lightgrey;
-    height: 120px;
+    height: 170px;
+    align-items: center;
 }
 nav{
+    display: flex;
+    flex-direction: column;
+    margin-left:988px;
     width: 30%;
+    height: 100%;
     background-color: #B7B7B7;
 }
 #logo{
-height: 80px;
-width: 320px
+height: 90px;
+margin-left: 50px;
+}
+.dol{
+    background-color: gray;
+    display: flex;
+    align-content: center;
+
+    height: 50%;
+    width: 90%;
+    margin-left: 85px;
+}
+.gora{
+        background-color: gray;
+    display: flex;
+    align-content: center;
+    height: 50%;
+    width: 90%;
+}
+article{
+
+    height: 1000px;
+    width: 1000px;
+}
+aside{
+    display: flex;
+    flex-direction: column ;
+    background-color: white;
+
+    width: 700px;
+    height: 1100px;
+    border-top-left-radius: 40px;
 }
