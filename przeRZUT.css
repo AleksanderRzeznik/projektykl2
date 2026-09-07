@@ -1,54 +1,75 @@
+* {
+    border-collapse: collapse;
+}
+
 body{
     font-family: Arial;
-    margin: 0%;
-    background-color: #0A6446;
 }
-header{
+
+header {
     display: flex;
     flex-direction: row;
-    background-color: lightgrey;
+    background-color: gainsboro;
     height: 170px;
     align-items: center;
 }
 nav{
-    display: flex;
-    flex-direction: column;
-    margin-left:988px;
-    width: 30%;
-    height: 100%;
+    width: 40%;
     background-color: #B7B7B7;
+    margin-left: 1220px;
+    height: 100%;
 }
-#logo{
-height: 90px;
-margin-left: 50px;
-}
-.dol{
-    background-color: gray;
-    display: flex;
-    align-content: center;
 
-    height: 50%;
-    width: 90%;
-    margin-left: 85px;
+#PrzeRZUT{
+    width: 300px;
+    height: 60px;
+    margin-left: 50px;
 }
-.gora{
-        background-color: gray;
+#ekspres{
     display: flex;
-    align-content: center;
-    height: 50%;
-    width: 90%;
+    text-align: center;
+    font-size: 30px;
+    width: 100px;
 }
-article{
-
-    height: 1000px;
-    width: 1000px;
+a{
+    background-color: darkgray;
 }
-aside{
+#przewozy{
+    background-color: #0A6446;
+    width: 100%;
+    height: 700px;
+    flex-direction: row;
     display: flex;
-    flex-direction: column ;
+    color: white;
+}
+h2{
+    margin: 0;
+}
+#special{
     background-color: white;
-
-    width: 700px;
-    height: 1100px;
-    border-top-left-radius: 40px;
+    width: 36%;
+    color: black;
+    margin-top: 30px;
+    border-top-left-radius: 90px;
+}
+#specialz{
+    width: 66%;
+    text-align: end;
+    margin-right: 50px;
+    margin-top: 20px;
+    height: 100%;
+}
+table{
+    border: black 3px solid;
+    width: 90%;
+    height: 75%;
+}
+th{
+    border: black 3px solid;
+}
+tr{
+    margin: 5px;
+}
+form{
+    height: 20%;
 }
